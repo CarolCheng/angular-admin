@@ -1,0 +1,87 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.mat-tab-labels {
+    background-color: #ffffff;
+    /*background-color: #4A90E2;*/
+    justify-content: center;
+}
+.mat-tab-label {
+    font-family: Roboto-Regular;
+    opacity: 1 !important;
+}
+.mat-tab-label.mat-tab-label-active {
+	background-color: transparent;
+	
+}
+.mat-tab-label.mat-tab-label-select {
+	background-color: transparent;
+}
+/*
+.mat-tab-links {
+    background-color: #ffffff;
+    /*background-color: #4A90E2;
+    justify-content: center;
+}
+.mat-tab-link {
+    font-family: Roboto-Regular;
+    opacity: 1 !important;
+    /*font-size: 16px;
+    color: #00408B;
+}
+.mat-tab-link.mat-tab-label-active {
+	background-color: transparent;
+	/*color: #FFFFFF;
+}
+.mat-tab-link.mat-tab-label-select {
+	background-color: transparent;
+	/*color: #FFFFFF;
+}*/
+.todo-body {
+    background-color: #f2f2f2;
+    margin: 0px;
+}
+.btn-user {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+.mat-expansion-panel-header[aria-disabled='true'] {
+    color: rgba(0, 0, 0, 0.87) !important; 
+}
+.mat-content {
+    align-items: center;
+}
+.mat-expansion-panel-body {
+    border-top-style: solid !important;
+    border-top-width: 1px !important;
+    border-top-color: rgba(0, 0, 0, 0.12);
+    padding: 10px 50px 16px !important;
+ }
+/*.mat-tab-nav-bar {
+    background-color: #4A90E2;
+    justify-content: center; 
+}
+.mat-tab-label {
+    color: #00408B;
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    opacity: 1 !important;
+}
+
+.mat-tab-label.mat-tab-label-active {
+	background-color: transparent;
+	color: #FFFFFF;
+}
+.mat-tab-label.mat-tab-label-select {
+	background-color: transparent;
+	color: #FFFFFF;
+}
+.mat-tab-group.mat-primary .mat-ink-bar {
+    background-color: #00408B;
+    height: 2.5px;
+}
+.todo-body {
+    background-color: #f2f2f2;
+    margin: 0px;
+}*/

@@ -1,0 +1,26 @@
+.mat-card.overview {
+    margin: 20px 0px;
+    height: 138px;
+    text-align: center;
+}
+.mat-card.chart {
+    margin: 20px 0px;
+}
+.revenue {
+    color: #7ED321;
+    font-family: HelveticaNeue-Bold;
+    font-weight: bold;
+    font-size: 36px;
+}
+.cost {
+    color: #D0021B;
+    font-family: HelveticaNeue-Bold;
+    font-weight: bold;
+    font-size: 36px;
+}
+.bill {
+    color: #4A90E2;
+    font-family: HelveticaNeue-Bold;
+    font-weight: bold;
+    font-size: 36px;
+}
