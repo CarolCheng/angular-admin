@@ -56,7 +56,7 @@ import { ActivityChartComponent } from './activity-chart/activity-chart.componen
     MatListModule,
     NgbModule.forRoot(),
     RouterModule.forRoot([
-      { path: '', redirectTo: 'tasks', pathMatch: 'full' },
+      { path: '', redirectTo: 'Home', pathMatch: 'full' },
       //  { path: 'webView',
       //    component: AppComponent,
       // children: [

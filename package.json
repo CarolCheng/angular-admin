@@ -1,5 +1,5 @@
 {
-  "name": "angular-todo-app",
+  "name": "angular-admin-app",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy:gh": "ng build --prod && ngh"
+    "deploy:ngh": "ng build --prod --base-href='https://carolcheng.github.io/angualr-admin/' && ngh"
   },
   "private": true,
   "dependencies": {
