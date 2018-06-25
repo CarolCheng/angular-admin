@@ -49,20 +49,22 @@
 .mat-expansion-panel-header[aria-disabled='true'] {
     color: rgba(0, 0, 0, 0.87) !important; 
 }
-.mat-content {
-    align-items: center;
-}
+
 .mat-expansion-panel-body {
     border-top-style: solid !important;
     border-top-width: 1px !important;
     border-top-color: rgba(0, 0, 0, 0.12);
     padding: 10px 50px 16px !important;
  }
-/*.mat-tab-nav-bar {
-    background-color: #4A90E2;
+ .mat-list {
+    padding: 0 0px !important; 
+ }
+.mat-tab-links {
+    background-color: #ffffff;
     justify-content: center; 
+    
 }
-.mat-tab-label {
+/*.mat-tab-label {
     color: #00408B;
     font-family: Roboto-Regular;
     font-size: 16px;
@@ -80,8 +82,4 @@
 .mat-tab-group.mat-primary .mat-ink-bar {
     background-color: #00408B;
     height: 2.5px;
-}
-.todo-body {
-    background-color: #f2f2f2;
-    margin: 0px;
 }*/
