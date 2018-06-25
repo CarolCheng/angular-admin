@@ -27,6 +27,7 @@ import { ActivityChartComponent } from './activity-chart/activity-chart.componen
 
 // Service
 import { ActivityService } from './services/activity.service';
+import { WebsitesComponent } from './websites/websites.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { ActivityService } from './services/activity.service';
     OrdersComponent,
     ProductComponent,
     ActivityChartComponent,
+    WebsitesComponent,
   ],
   imports: [
     BrowserModule,
