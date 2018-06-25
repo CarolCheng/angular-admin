@@ -64,22 +64,8 @@
     justify-content: center; 
     
 }
-/*.mat-tab-label {
-    color: #00408B;
-    font-family: Roboto-Regular;
-    font-size: 16px;
-    opacity: 1 !important;
+.mat-card.statics {
+    margin: 20px 0px;
+    height: 350px;
+    min-width: 400px; 
 }
-
-.mat-tab-label.mat-tab-label-active {
-	background-color: transparent;
-	color: #FFFFFF;
-}
-.mat-tab-label.mat-tab-label-select {
-	background-color: transparent;
-	color: #FFFFFF;
-}
-.mat-tab-group.mat-primary .mat-ink-bar {
-    background-color: #00408B;
-    height: 2.5px;
-}*/

@@ -6,10 +6,6 @@
 .mat-card.chart {
     margin: 20px 0px;
 }
-.mat-card.transaction {
-    margin: 20px 0px;
-    height: 350px;
-}
 .revenue {
     color: #7ED321;
     font-family: HelveticaNeue-Bold;
@@ -27,54 +23,4 @@
     font-family: HelveticaNeue-Bold;
     font-weight: bold;
     font-size: 36px;
-}
-.mat-list-item.website {
-    height: 70px;
-    text-align: right;
-}
-span.symbol {
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 19px;
-}
-
-span.down {
-    color: #D0021B;
-}
-span.up {
-    color: #7ED321;
-}
-.web-margin {
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
-}
-.web-icon {
-    font-size: 45px;
-    margin: 20px;
-}
-@media (min-width: 476px) {
-    .web-number {
-        font-family: HelveticaNeue-Medium;
-        font-weight: bold;
-        font-size: 20px;
-        line-height: 25px;
-        width: 65px;
-        height: 25px;
-    }
-    .web-rwd-margin {
-        margin: 0 20px;
-    }
-}
-@media (max-width: 475px) {
-    .web-number {
-        font-family: HelveticaNeue-Medium;
-        font-weight: bold;
-        font-size: 16px;
-        line-height: 25px;
-        width: 65px;
-        height: 25px;
-    }
-    .web-rwd-margin {
-        margin: 0 10px;
-    }
 }
