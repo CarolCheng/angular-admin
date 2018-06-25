@@ -6,6 +6,10 @@
 .mat-card.chart {
     margin: 20px 0px;
 }
+.mat-card.transaction {
+    margin: 20px 0px;
+    height: 350px;
+}
 .revenue {
     color: #7ED321;
     font-family: HelveticaNeue-Bold;
@@ -23,4 +27,42 @@
     font-family: HelveticaNeue-Bold;
     font-weight: bold;
     font-size: 36px;
+}
+.transaction-icon {
+    font-size: 45px;
+    margin: 20px;
+}
+.transaction-number {
+    font-family: HelveticaNeue-Medium;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 25px;
+    width: 65px;
+    height: 25px;
+}
+.transaction-down {
+    font-weight: bold;
+    color: #D0021B;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 19px;
+}
+.transaction-up {
+    font-weight: bold;
+    color: #7ED321;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 19px;
+}
+.mat-list-item.website {
+    height: 70px;
+    text-align: right;
+}
+.transaction-margin {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
 }

@@ -3,6 +3,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule, Routes } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { HttpModule, Http, BaseRequestOptions } from '@angular/http';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 // Angular Material 6.2.1
 import { MatTabsModule,
@@ -22,14 +23,10 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { OrdersComponent } from './orders/orders.component';
 import { ProductComponent } from './product/product.component';
-// Service
-import { ActivityService } from './services/activity.service';
-
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ActivityChartComponent } from './activity-chart/activity-chart.component';
 
-
-
+// Service
+import { ActivityService } from './services/activity.service';
 
 @NgModule({
   declarations: [
